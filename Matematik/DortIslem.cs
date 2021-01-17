@@ -6,18 +6,39 @@ namespace Matematik
 {
     class DortIslem
     {
-        public void Topla(int sayi1,int sayi2)
+
+
+        public void Topla(Double sayi1, Double sayi2)
         {
-            int toplam = sayi1 + sayi2;
-            Console.WriteLine("Sonuç: "+toplam);
+            Double toplam = sayi1 + sayi2;
+            Console.WriteLine("Sonuç: " + toplam);
         }
-        public void Carp(int sayi1, int sayi2) 
+        public void Carp(Double sayi1, Double sayi2)
         {
-            int carpim = sayi1 * sayi2;
-            Console.WriteLine("Sonuç: "+carpim);
+            Double carpim = sayi1 * sayi2;
+            Console.WriteLine("Sonuç: " + carpim);
         }
+
+        public void Bol(double sayi1, double sayi2)
+        {
+            double bolum = sayi1 / sayi2;
+            Console.WriteLine("Sonuç: "+bolum);
+        }               
         
-        
+        public void Cikart(Double sayi1, Double sayi2)
+        {
+            double cikartma = sayi1 - sayi2;
+            Console.WriteLine("Sonuç: "+cikartma);
         }
+
+        public void Apostro()
+        {
+            string star = "--------------------------" ;
+            Console.WriteLine(star);
+        }
+
+
+
+    }
 
 }
